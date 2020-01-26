@@ -10,13 +10,15 @@ head = f"""<!DOCTYPE html>
 <head>
   <title>{title}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
   <style>
     body{{
-        max-width: 1000px;
+        max-width: 85%;
         margin: auto;
         color: #ffffff;
+        word-wrap: break-word;
         font-family: Helvetica, Tahoma, Arial, “STXihei”, “华文细黑”, “Microsoft YaHei”, “微软雅黑”, sans-serif;
-        font-size: 2.5em;
+        font-size: 2em;
         background-color: #000000;
     }}
     #contents a{{
